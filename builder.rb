@@ -1,5 +1,5 @@
 # Dictionary builder for future updates
-# word_list.txt => JSON file with words their values
+# word_list.txt => JSON file with words and their values
 
 require "json"
 
