@@ -1,18 +1,5 @@
-# sinatra-template
+# scrabble-api
 
-Use this repository to create new Sinatra apps. 
+Simple API to provide search results from a list of words and their value.
 
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
-
-```ruby
-require "sinatra/activerecord"
-```
-
-And in the `config/environment.rb` file add this code block:
-
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+If future updates are needed, `builder.rb` can be used to generate a new JSON dictionary from a list of words.

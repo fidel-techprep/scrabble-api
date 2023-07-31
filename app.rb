@@ -11,7 +11,7 @@ def error_response(status, message)
   { error: message }.to_json
 end
 
-# Load words from the JSON file into an array
+# Load words from the JSON file
 json_data = File.read('data.json')
 dictionary = JSON.parse(json_data, symbolize_names: true)
 

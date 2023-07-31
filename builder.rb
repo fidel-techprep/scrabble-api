@@ -1,3 +1,6 @@
+# Dictionary builder for future updates
+# word_list.txt => JSON file with words their values
+
 require "json"
 
 puts("Enter dictionary filename:")
